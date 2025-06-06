@@ -138,26 +138,26 @@ local locationSteps = {
     ["Abyssal beasts"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3091, 3657, 0) end },
-        { area = {x = 3091, y = 3657, z = 0, range = {5,5}}, next = function() moveToTile(3070, 3721, 0) end },
-        { area = {x = 3070, y = 3721, z = 0, range = {5,5}}, next = function() moveToTile(3104, 3777, 0) end },
-        { area = {x = 3104, y = 3777, z = 0, range = {5,5}}, next = function() moveToTile(3093, 3800, 0) end },
+        { area = {x = 3091, y = 3657, z = 0, range = {10,10}}, next = function() moveToTile(3070, 3721, 0) end },
+        { area = {x = 3070, y = 3721, z = 0, range = {10,10}}, next = function() moveToTile(3104, 3777, 0) end },
+        { area = {x = 3104, y = 3777, z = 0, range = {10,10}}, next = function() moveToTile(3093, 3800, 0) end },
         { area = {x = 3093, y = 3800, z = 0, range = {20,20}} }
     },
     ["Abyssal demons"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3091, 3657, 0) end },
-        { area = {x = 3091, y = 3657, z = 0, range = {5,5}}, next = function() moveToTile(3070, 3721, 0) end },
-        { area = {x = 3070, y = 3721, z = 0, range = {5,5}}, next = function() moveToTile(3104, 3777, 0) end },
-        { area = {x = 3104, y = 3777, z = 0, range = {5,5}}, next = function() moveToTile(3093, 3800, 0) end },
+        { area = {x = 3091, y = 3657, z = 0, range = {10,10}}, next = function() moveToTile(3070, 3721, 0) end },
+        { area = {x = 3070, y = 3721, z = 0, range = {10,10}}, next = function() moveToTile(3104, 3777, 0) end },
+        { area = {x = 3104, y = 3777, z = 0, range = {10,10}}, next = function() moveToTile(3093, 3800, 0) end },
         { area = {x = 3093, y = 3800, z = 0, range = {20,20}} }
     },
     ["Abyssal lords"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3091, 3657, 0) end },
-        { area = {x = 3091, y = 3657, z = 0, range = {5,5}}, next = function() moveToTile(3070, 3721, 0) end },
-        { area = {x = 3070, y = 3721, z = 0, range = {5,5}}, next = function() moveToTile(3104, 3777, 0) end },
-        { area = {x = 3104, y = 3777, z = 0, range = {5,5}}, next = function() moveToTile(3119, 3782, 0) end },
-        { area = {x = 3119, y = 3782, z = 0, range = {5,5}}, next = function() moveToTile(3136, 3867, 0) end },
+        { area = {x = 3091, y = 3657, z = 0, range = {10,10}}, next = function() moveToTile(3070, 3721, 0) end },
+        { area = {x = 3070, y = 3721, z = 0, range = {10,10}}, next = function() moveToTile(3104, 3777, 0) end },
+        { area = {x = 3104, y = 3777, z = 0, range = {10,10}}, next = function() moveToTile(3119, 3782, 0) end },
+        { area = {x = 3119, y = 3782, z = 0, range = {10,10}}, next = function() moveToTile(3136, 3867, 0) end },
         { area = {x = 3136, y = 3867, z = 0, range = {20,20}} }
     },
     ["Abyssal savages"] = {
@@ -168,102 +168,102 @@ local locationSteps = {
     ["Acheron mammoths"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3023, 3925, 0) end },
-        { area = {x = 3023, y = 3925, z = 0, range = {5,5}}, next = function() moveToTile(2970, 3937, 0) end },
+        { area = {x = 3023, y = 3925, z = 0, range = {10,10}}, next = function() moveToTile(2970, 3937, 0) end },
         { area = {x = 2970, y = 3937, z = 0, range = {20,20}} }
     },
     ["Dark beasts"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3046, 3724, 0) end },
-        { area = {x = 3046, y = 3724, z = 0, range = {5,5}}, next = function() moveToTile(2996, 3782, 0) end },
+        { area = {x = 3046, y = 3724, z = 0, range = {10,10}}, next = function() moveToTile(2996, 3782, 0) end },
         { area = {x = 2996, y = 3782, z = 0, range = {20,20}} }
     },
     ["Gargoyles"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3197, 3680, 0) end },
-        { area = {x = 3197, y = 3680, z = 0, range = {5,5}}, next = function() moveToTile(3225, 3731, 0) end },
+        { area = {x = 3197, y = 3680, z = 0, range = {10,10}}, next = function() moveToTile(3225, 3731, 0) end },
         { area = {x = 3225, y = 3731, z = 0, range = {20,20}} }
     },
     ["Greater demon berserkers and ash lords (Wilderness)"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3197, 3680, 0) end },
-        { area = {x = 3197, y = 3680, z = 0, range = {5,5}}, next = function() moveToTile(3263, 3717, 0) end },
-        { area = {x = 3263, y = 3717, z = 0, range = {5,5}}, next = function() moveToTile(3297, 3764, 0) end },
-        { area = {x = 3297, y = 3764, z = 0, range = {5,5}}, next = function() moveToTile(3335, 3812, 0) end },
+        { area = {x = 3197, y = 3680, z = 0, range = {10,10}}, next = function() moveToTile(3263, 3717, 0) end },
+        { area = {x = 3263, y = 3717, z = 0, range = {10,10}}, next = function() moveToTile(3297, 3764, 0) end },
+        { area = {x = 3297, y = 3764, z = 0, range = {10,10}}, next = function() moveToTile(3335, 3812, 0) end },
         { area = {x = 3335, y = 3812, z = 0, range = {20,20}} }
     },
     ["Hydrix dragons"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3046, 3724, 0) end },
-        { area = {x = 3046, y = 3724, z = 0, range = {5,5}}, next = function() moveToTile(2996, 3782, 0) end },
-        { area = {x = 2996, y = 3782, z = 0, range = {5,5}}, next = function() moveToTile(3009, 3834, 0) end },
-        { area = {x = 3009, y = 3834, z = 0, range = {5,5}}, next = function() moveToTile(3023, 3886, 0) end },
+        { area = {x = 3046, y = 3724, z = 0, range = {10,10}}, next = function() moveToTile(2996, 3782, 0) end },
+        { area = {x = 2996, y = 3782, z = 0, range = {10,10}}, next = function() moveToTile(3009, 3834, 0) end },
+        { area = {x = 3009, y = 3834, z = 0, range = {10,10}}, next = function() moveToTile(3023, 3886, 0) end },
         { area = {x = 3023, y = 3886, z = 0, range = {20,20}} }
     },
     ["Ice strykewyrms"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3046, 3724, 0) end },
-        { area = {x = 3046, y = 3724, z = 0, range = {5,5}}, next = function() moveToTile(2996, 3782, 0) end },
-        { area = {x = 2996, y = 3782, z = 0, range = {5,5}}, next = function() moveToTile(3058, 3813, 0) end },
+        { area = {x = 3046, y = 3724, z = 0, range = {10,10}}, next = function() moveToTile(2996, 3782, 0) end },
+        { area = {x = 2996, y = 3782, z = 0, range = {10,10}}, next = function() moveToTile(3058, 3813, 0) end },
         { area = {x = 3058, y = 3813, z = 0, range = {20,20}} }
     },
     ["Lava strykewyrms"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3046, 3724, 0) end },
-        { area = {x = 3046, y = 3724, z = 0, range = {5,5}}, next = function() moveToTile(2996, 3782, 0) end },
-        { area = {x = 2996, y = 3782, z = 0, range = {5,5}}, next = function() moveToTile(3058, 3813, 0) end },
+        { area = {x = 3046, y = 3724, z = 0, range = {10,10}}, next = function() moveToTile(2996, 3782, 0) end },
+        { area = {x = 2996, y = 3782, z = 0, range = {10,10}}, next = function() moveToTile(3058, 3813, 0) end },
         { area = {x = 3058, y = 3813, z = 0, range = {20,20}} }
     },
     ["Kal'gerion demons"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3197, 3680, 0) end },
-        { area = {x = 3197, y = 3680, z = 0, range = {5,5}}, next = function() moveToTile(3225, 3731, 0) end },
-        { area = {x = 3225, y = 3731, z = 0, range = {5,5}}, next = function() moveToTile(3327, 3805, 0) end },
-        { area = {x = 3327, y = 3805, z = 0, range = {5,5}}, next = function() moveToTile(3302, 3880, 0) end },
+        { area = {x = 3197, y = 3680, z = 0, range = {10,10}}, next = function() moveToTile(3225, 3731, 0) end },
+        { area = {x = 3225, y = 3731, z = 0, range = {10,10}}, next = function() moveToTile(3327, 3805, 0) end },
+        { area = {x = 3327, y = 3805, z = 0, range = {10,10}}, next = function() moveToTile(3302, 3880, 0) end },
         { area = {x = 3302, y = 3880, z = 0, range = {20,20}} }
     },
     ["Living wyverns"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3046, 3724, 0) end },
-        { area = {x = 3046, y = 3724, z = 0, range = {5,5}}, next = function() moveToTile(2996, 3782, 0) end },
-        { area = {x = 2996, y = 3782, z = 0, range = {5,5}}, next = function() moveToTile(3009, 3834, 0) end },
-        { area = {x = 3009, y = 3834, z = 0, range = {5,5}}, next = function() moveToTile(3023, 3886, 0) end },
-        { area = {x = 3023, y = 3886, z = 0, range = {5,5}}, next = function() moveToTile(2964, 3894, 0) end },
+        { area = {x = 3046, y = 3724, z = 0, range = {10,10}}, next = function() moveToTile(2996, 3782, 0) end },
+        { area = {x = 2996, y = 3782, z = 0, range = {10,10}}, next = function() moveToTile(3009, 3834, 0) end },
+        { area = {x = 3009, y = 3834, z = 0, range = {10,10}}, next = function() moveToTile(3023, 3886, 0) end },
+        { area = {x = 3023, y = 3886, z = 0, range = {10,10}}, next = function() moveToTile(2964, 3894, 0) end },
         { area = {x = 2964, y = 3894, z = 0, range = {20,20}} }
     },
     ["Onyx dragons"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3197, 3680, 0) end },
-        { area = {x = 3197, y = 3680, z = 0, range = {5,5}}, next = function() moveToTile(3225, 3731, 0) end },
-        { area = {x = 3225, y = 3731, z = 0, range = {5,5}}, next = function() moveToTile(3261, 3791, 0) end },
+        { area = {x = 3197, y = 3680, z = 0, range = {10,10}}, next = function() moveToTile(3225, 3731, 0) end },
+        { area = {x = 3225, y = 3731, z = 0, range = {10,10}}, next = function() moveToTile(3261, 3791, 0) end },
         { area = {x = 3261, y = 3791, z = 0, range = {20,20}} }
     },
     ["Revenants"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3076, 3649, 0) end },
         { 
-            area = {x = 3076, y = 3649, z = 0, range = {5,5}},
+            area = {x = 3076, y = 3649, z = 0, range = {10,10}},
             next = function() 
                 API.DoAction_Object1(0x39, API.OFF_ACT_GeneralObject_route0, {20600}, 50) 
             end,
             check = function() return API.PInArea(3105, 5, 10123, 5, 0) end 
         },
-        { area = {x = 3105, y = 10123, z = 0, range = {5,5}}, next = function() moveToTile(3115, 10146, 0) end },
+        { area = {x = 3105, y = 10123, z = 0, range = {10,10}}, next = function() moveToTile(3115, 10146, 0) end },
         { area = {x = 3115, y = 10146, z = 0, range = {20,20}} }
     },
     ["Ripper Demons"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3197, 3680, 0) end },
-        { area = {x = 3197, y = 3680, z = 0, range = {5,5}}, next = function() moveToTile(3225, 3731, 0) end },
-        { area = {x = 3225, y = 3731, z = 0, range = {5,5}}, next = function() moveToTile(3261, 3791, 0) end },
-        { area = {x = 3261, y = 3791, z = 0, range = {5,5}}, next = function() moveToTile(3247, 3862, 0) end },
+        { area = {x = 3197, y = 3680, z = 0, range = {10,10}}, next = function() moveToTile(3225, 3731, 0) end },
+        { area = {x = 3225, y = 3731, z = 0, range = {10,10}}, next = function() moveToTile(3261, 3791, 0) end },
+        { area = {x = 3261, y = 3791, z = 0, range = {10,10}}, next = function() moveToTile(3247, 3862, 0) end },
         { area = {x = 3247, y = 3862, z = 0, range = {20,20}} }
     },
     ["Soulgazers"] = {
         { area = nil, next = function() LODESTONE.Wilderness() end },
         { area = {x = 3143, y = 3635, z = 0, range = {10,10}}, next = function() moveToTile(3197, 3680, 0) end },
-        { area = {x = 3197, y = 3680, z = 0, range = {5,5}}, next = function() moveToTile(3225, 3731, 0) end },
-        { area = {x = 3225, y = 3731, z = 0, range = {5,5}}, next = function() moveToTile(3327, 3805, 0) end },
-        { area = {x = 3327, y = 3805, z = 0, range = {5,5}}, next = function() moveToTile(3326, 3725, 0) end },
+        { area = {x = 3197, y = 3680, z = 0, range = {10,10}}, next = function() moveToTile(3225, 3731, 0) end },
+        { area = {x = 3225, y = 3731, z = 0, range = {10,10}}, next = function() moveToTile(3327, 3805, 0) end },
+        { area = {x = 3327, y = 3805, z = 0, range = {10,10}}, next = function() moveToTile(3326, 3725, 0) end },
         { area = {x = 3326, y = 3725, z = 0, range = {20,20}} }
     }
 }
@@ -271,21 +271,21 @@ local locationSteps = {
 local function getNewTask()
     local steps = {
         { area = nil, next = function() LODESTONE.Edgeville() end },
-        { area = {x = 3093, y = 3475, z = 0, range = {5,5}} },
+        { area = {x = 3093, y = 3475, z = 0, range = {10,10}} },
         {
-            area = {x = 3093, y = 3475, z = 0, range = {5,5}},
+            area = {x = 3093, y = 3475, z = 0, range = {10,10}},
             next = function() API.DoAction_Object1(0x29, API.OFF_ACT_GeneralObject_route0, {1814}, 50) end,
             check = function() return API.PInArea(3158, 5, 3946, 5, 0) end
         },
-        { area = {x = 3158, y = 3946, z = 0, range = {5,5}} },
+        { area = {x = 3158, y = 3946, z = 0, range = {10,10}} },
         {
-            area = {x = 3158, y = 3946, z = 0, range = {5,5}},
+            area = {x = 3158, y = 3946, z = 0, range = {10,10}},
             next = function() API.DoAction_Object1(0x29, API.OFF_ACT_GeneralObject_route0, {65346}, 50) end,
             check = function() return #API.GetAllObjArray1({65346}, 25, {12}) == 0 end
         },
-        { area = {x = 3054, y = 3948, z = 0, range = {5,5}} },
+        { area = {x = 3054, y = 3948, z = 0, range = {10,10}} },
         {
-            area = {x = 3054, y = 3948, z = 0, range = {5,5}},
+            area = {x = 3054, y = 3948, z = 0, range = {10,10}},
             next = function() API.DoAction_NPC(0x29, API.OFF_ACT_InteractNPC_route2, {6537}, 50) end
         }
     }
@@ -310,6 +310,9 @@ local function war()
       API.RandomSleep2(4000, 500, 500)
       API.DoAction_Object1(0x33,API.OFF_ACT_GeneralObject_route3,{ 114750 },50);
       API.RandomSleep2(4000, 500, 500)
+      while API.LocalPlayer_IsInCombat_() do
+            API.RandomSleep2(500, 500, 500)
+      end
       Traverse(steps)
 end
 
