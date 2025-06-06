@@ -133,14 +133,6 @@ local function isFightingCorrectMob(task)
     
     return false
 end
-local function war()
-    task = API.ScanForInterfaceTest2Get(false, inter)[1].textids
-    local handler = locationHandlers[task]
-      API.DoAction_Ability_Direct(War, 1, API.OFF_ACT_GeneralInterface_route)
-      API.RandomSleep2(4000, 500, 500)
-      API.DoAction_Object1(0x33,API.OFF_ACT_GeneralObject_route3,{ 114750 },50);
-      API.RandomSleep2(4000, 500, 500)
-end
 
 local locationSteps = {
     ["Abyssal beasts"] = {
@@ -311,6 +303,16 @@ local function getNewTask()
         API.RandomSleep2(1000, 500, 500)
     end
 end
+local function war()
+    task = API.ScanForInterfaceTest2Get(false, inter)[1].textids
+    local steps = locationSteps[task]
+      API.DoAction_Ability_Direct(War, 1, API.OFF_ACT_GeneralInterface_route)
+      API.RandomSleep2(4000, 500, 500)
+      API.DoAction_Object1(0x33,API.OFF_ACT_GeneralObject_route3,{ 114750 },50);
+      API.RandomSleep2(4000, 500, 500)
+      Traverse(steps)
+end
+
 
 local function killMobs(task)
     local npcIds = npcMapping[task]
