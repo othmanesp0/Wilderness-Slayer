@@ -10,7 +10,7 @@ local volley_of_souls = API.GetABs_name1("Volley of Souls")
 local food = 15272
 local task_refresh = 0
 local last_task = ""
-local kills_remaining = 0
+
 
 local task_text = API.CreateIG_answer()
 task_text.box_start = API.CreateFFPOINT(10, 50, 0) 
